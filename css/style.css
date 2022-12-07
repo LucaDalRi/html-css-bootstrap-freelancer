@@ -1,26 +1,37 @@
-
 .debug{
     border: 2px dashed fuchsia;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
 
-
-.my-div-header{
-    height: 100px;
+.my-header{
     background-color: #2c3e50;
 }
 
 .my-burger{
     border: 1px solid white;
-    padding: 5px 10px;
+    padding: 0 10px 10px 10px;
     border-radius: 10px;
     font-size: 30px;
-    /* display: none; */
 }
 
+.list-header{
+    display: none;
+}
+
+.list-header ul{
+    list-style: none;
+    padding-right: 5px;
+    padding-left: 0;
+}
+
+.list-header li{
+    display: inline-block;
+    padding: 0 5px;
+}
 
 .my-container-jumbo{
     background-color: #1abc9c;
@@ -34,20 +45,17 @@ a{
     font-size: 3em;
 }
 
-
 .container-img{
-    margin-bottom: 20px;
+    
 }
 
 .container-img img{
     width: 100%;
     border-radius: 20px;
-
 }
 
 .section-about{
     background-color: #1abc9c;
-    height: 500px;
 }
 
 .container-interno-about{
@@ -62,7 +70,7 @@ a{
 }
 
 .container-contact{
-    width: 60%;
+    width: 70%;
 }
 
 #input-text-about{
@@ -80,13 +88,8 @@ a{
     padding: 5px 10px;
 }
 
-
 .footer-sect1{
     background-color: #3a546d;
-}
-
-.container-footer-sect1{
-    width: 90%;
 }
 
 .fa-border{
@@ -98,3 +101,13 @@ a{
     background-color: #2c3e50;
 }
 
+
+
+@media screen and (min-width: 576px) {
+    .list-header{
+        display: flex;
+    }
+    .my-burger{
+        display: none;
+    }
+}
