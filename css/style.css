@@ -88,3 +88,13 @@ a{
 .container-footer-sect1{
     width: 90%;
 }
+
+.fa-border{
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.footer-sect2{
+    background-color: #2c3e50;
+}
+
