@@ -1,10 +1,5 @@
-.debug{
-    border: 2px dashed fuchsia;
-}
-
-a{
-    text-decoration: none;
-    color: white;
+:root{
+    --green: #1abc9c;
 }
 
 .my-header{
@@ -12,10 +7,7 @@ a{
 }
 
 .my-burger{
-    border: 1px solid white;
     padding: 0 10px 10px 10px;
-    border-radius: 10px;
-    font-size: 30px;
 }
 
 .list-header{
@@ -25,7 +17,6 @@ a{
 .list-header ul{
     list-style: none;
     padding-right: 5px;
-    padding-left: 0;
 }
 
 .list-header li{
@@ -34,19 +25,14 @@ a{
 }
 
 .my-container-jumbo{
-    background-color: #1abc9c;
-    color: white;
+    background-color: var(--green);
 }
 .img-avatar{
     width: 250px;
-
 }
+
 #dash-star{
     font-size: 3em;
-}
-
-.container-img{
-    
 }
 
 .container-img img{
@@ -55,18 +41,15 @@ a{
 }
 
 .section-about{
-    background-color: #1abc9c;
+    background-color: var(--green);
 }
 
 .container-interno-about{
     width: 70%;
-    color: white;
 }
 
 .download-link{
-    border: 2px solid white;
     padding: 5px 10px;
-    border-radius: 10px;
 }
 
 .container-contact{
@@ -76,13 +59,11 @@ a{
 #input-text-about{
     width: 100%;
     height: 100px;
-    border: none;
-    border-bottom: 1px solid black;
 }
 
 #button-send{
     color: white;
-    background-color: #1abc9c;
+    background-color: var(--green);
     border: transparent;
     border-radius: 4px;
     padding: 5px 10px;
@@ -101,6 +82,9 @@ a{
     background-color: #2c3e50;
 }
 
+input{
+    border: none;
+}
 
 
 @media screen and (min-width: 576px) {
